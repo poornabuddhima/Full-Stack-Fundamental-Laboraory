@@ -1,0 +1,114 @@
+
+.navbar {
+    background-color: black;
+}
+.navbar-brand, 
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-link.active {
+    color: lightgray;
+}
+
+
+.welcome-section {
+    background-color: lightgray;
+    padding: 60px 0;
+}
+.welcome-text {
+    margin-bottom: 20px;
+}
+.welcome-text h1 {
+    font-weight: bold;
+}
+.welcome-desc {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.welcome-img {
+    border-radius: 10px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.features-section {
+    background-color: white;
+    padding: 60px 0;
+}
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: black;
+}
+.feature-box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.feature-icon {
+    font-size: 45px;
+    color: blue;
+    display: block;
+    margin-bottom: 15px;
+}
+.feature-box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.feature-box p {
+    color: gray;
+}
+
+.courses-section {
+    padding: 60px 0;
+}
+.course-box {
+    margin-bottom: 30px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-text {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.site-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-text {
+    margin-bottom: 10px;
+}
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+.btn-primary {
+    background-color: blue;
+    border-color: blue;
+}
+.btn-outline-primary {
+    color: blue;
+    border-color: blue;
+}
+.btn-outline-primary:hover {
+    background-color: blue;
+    color: white;
+}
