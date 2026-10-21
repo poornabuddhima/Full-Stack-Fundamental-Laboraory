@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    color: dimgray; 
+    background-color: white; 
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: darkslategray; 
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid lightcoral; 
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: darkslategray;
+    font-family: Georgia, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkslategray;
+    margin-left: 30px;
+    font-size: 1.1;
+}
+
+nav a.active {
+    color: lightcoral; 
+}
+
+.section-title {
+    font-size: 2.5;
+    font-family: Georgia, serif;
+    color: darkslategray;
+    border-bottom: 3px solid lightcoral;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 150px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 30px;
+}
+
+.projects article img {
+    margin-bottom: 20px;
+}
+
+.projects article h3 {
+    font-size: 1.4;
+    font-family: Georgia, serif;
+    color: darkslategray;
+}
+
+.projects article p {
+    margin-bottom: 20px;
+    color: dimgray;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid lightcoral;
+    color: lightcoral;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+    font-size: 0.9;
+    color: gray;
+}
